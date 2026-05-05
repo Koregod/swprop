@@ -71,14 +71,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // ссылки на статьи (демо-режим)
-    document.querySelectorAll('.hyper-link').forEach(link => {
-        link.addEventListener('click', (e) => {
-            if (link.getAttribute('href') === '#') e.preventDefault();
-            const message = (document.body.classList.contains('lang-en')) 
-                ? 'Demo link to archive material' 
-                : 'Демо-ссылка на архивный материал';
-            alert(message);
-        });
-    });
+    // // ссылки на статьи (демо-режим)
+    // // document.querySelectorAll('.hyper-link').forEach(link => {
+    // //     link.addEventListener('click', (e) => {
+    // //         if (link.getAttribute('href') === '#') e.preventDefault();
+    // //         const message = (document.body.classList.contains('lang-en')) 
+    // //             ? 'Demo link to archive material' 
+    // //             : 'Демо-ссылка на архивный материал';
+    // //         alert(message);
+    // //     });
+    // });
 });
